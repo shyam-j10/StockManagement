@@ -1,0 +1,79 @@
+.pi{
+    height: 100px;
+}
+.table-primary{
+    height: 50;
+}
+
+.table-group-divider{
+    height: 100px;
+}
+
+
+
+button-atc:focus {
+    outline: none;
+}
+button-atc:hover {
+    background: #666;
+}
+button-atc{
+    height: 36px;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    background: #1e0779;
+    border: 0;
+    font-weight: 400;
+    padding: 0 16px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+
+.stepper-input .decrement, .stepper-input .increment {
+    height: 24px;
+    width: 24px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    line-height: 22px;
+    
+}
+a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.stepper-input {
+    display: flex;
+    display: -webkit-flex;
+    color: #666;
+    max-width: 120px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    color: plum;
+    background: #d39292;
+}
+
+::selection {
+    background: peru;
+    color: #fff;
+}
